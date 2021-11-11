@@ -1,5 +1,5 @@
 if (( $+commands[k3d] )); then
-    __K3D_COMPLETION_FILE="${ZSH_CACHE_DIR}/kubectl_completion"
+    __K3D_COMPLETION_FILE="${ZSH_CACHE_DIR}/k3d_completion"
 
     if [[ ! -f $__K3D_COMPLETION_FILE || ! -s $__K3D_COMPLETION_FILE ]]; then
         k3d completion zsh >! $__K3D_COMPLETION_FILE
